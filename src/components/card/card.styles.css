@@ -1,0 +1,29 @@
+.quote-box1{
+    position: relative;
+    display: flex;
+    justify-content: center;   
+}
+
+.quote-box1 .card {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding: 10px 15px;
+    width: 40%;
+    height: 200px;  
+  }
+
+  .new-quote-button{
+    display: flex;
+    margin-left: 70%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    
+  }

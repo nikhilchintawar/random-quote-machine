@@ -1,17 +1,17 @@
 import React from 'react';
+import "./card.styles.css";
 
 
-
-const Card = ({myQuotes}) => {
-    const { quote, author } = myQuotes;
-   return (<div>
-        <div id="quote-box">
-         <h2>{quote}</h2>
-         <p>{author}</p>
-        {/* <button id="new-quote" onClick={this.handleClick}>New quote</button> */}
-        <button id="tweet-quote"><a href="twitter.com/intent/tweet">t</a></button>
-      </div>
-    </div>)
+const Card = ({quote, author, handleClick}) => {
+    return (
+        <div className="quote-box1">
+        <div className="card">
+        <h2>{quote}</h2>
+        <span>{author}</span>
+        <button className="new-quote-button" onClick={handleClick}>New quote</button>
+        </div>
+         
+      </div>)
 }
 
 export default Card;
