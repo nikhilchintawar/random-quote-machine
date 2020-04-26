@@ -4,11 +4,12 @@ import "./card.styles.css";
 
 const Card = ({quote, author, handleClick}) => {
     return (
-        <div className="quote-box1">
+        <div id="quote-box">
         <div className="card">
-        <h2>{quote}</h2>
-        <span>{author}</span>
-        <button className="new-quote-button" onClick={handleClick}>New quote</button>
+        <h2 id="text">{quote}</h2>
+        <span id="author">{author}</span>
+        <button id="new-quote" onClick={handleClick}>New quote</button>
+        <button id="tweet-quote"><a href="http://twitter.com/intent/tweet">Tweet it</a></button>
         </div>
          
       </div>)

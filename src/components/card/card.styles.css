@@ -1,20 +1,24 @@
-.quote-box1{
-    position: relative;
+#quote-box{
+    /* position: relative;
     display: flex;
-    justify-content: center;   
+    justify-content: center;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
+    width: 40%;
+    margin-left: 30%;
 }
 
-.quote-box1 .card {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin-top: 200px;
-    padding: 10px 15px;
-    width: 40%;
-    height: 200px;  
+#quote-box .card {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 15px;
   }
 
-  .new-quote-button{
+  #new-quote{
     display: flex;
     margin-left: 70%;
     background-color: #4CAF50; /* Green */
@@ -26,4 +30,22 @@
     font-size: 16px;
     border-radius: 5px;
     
+  }
+
+  #tweet-quote a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #tweet-quote{
+    display: flex;
+    background-color: #00acee; /* Green */
+    margin-left: 10%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
   }
